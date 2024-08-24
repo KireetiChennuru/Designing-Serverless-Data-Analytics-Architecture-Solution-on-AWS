@@ -1,8 +1,7 @@
 # Event-Driven-Serverless-Data-Analytics-Architecture
 
-## Project Overview
 
-### Project Name: Real-Time Clickstream Analytics for Restaurant Insights
+## Project Name: Real-Time Clickstream Analytics for Restaurant Insights
 
 ### Project Synopsis:
 
