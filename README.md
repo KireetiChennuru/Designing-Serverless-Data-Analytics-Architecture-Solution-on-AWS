@@ -83,23 +83,23 @@ The primary goal of this project is to design an architecture that ingests, stor
 
 ## Project Structure
 
-### Task 1: Create IAM policies and roles to follow the best practices of working in the AWS Cloud.
+#### Task 1: Create IAM policies and roles to follow the best practices of working in the AWS Cloud.
 
-### Task 2: Creating an object storage S3 bucket to store clickstream data.
+#### Task 2: Creating an object storage S3 bucket to store clickstream data.
 
-### Task 3: Create the Lambda function for Amazon Kinesis Data Firehose to transform data.
+#### Task 3: Create the Lambda function for Amazon Kinesis Data Firehose to transform data.
 
-### Task 4: Create a Kinesis Data Firehose delivery stream to deliver real-time streaming data to Amazon S3.
+#### Task 4: Create a Kinesis Data Firehose delivery stream to deliver real-time streaming data to Amazon S3.
 
-### Task 5: Adding the Firehose Delivery Stream ARN to the S3 Bucket
+#### Task 5: Adding the Firehose Delivery Stream ARN to the S3 Bucket
 
-### Task 6: Create a REST API to insert data.
+#### Task 6: Create a REST API to insert data.
 
-### Task 7: Create an Amazon Athena table to view the obtained data.
+#### Task 7: Create an Amazon Athena table to view the obtained data.
 
-### Task 8: Create Amazon QuickSight dashboards to visualize data.
+#### Task 8: Create Amazon QuickSight dashboards to visualize data.
 
-### Task 9: Deleting All Resources
+#### Task 9: Deleting All Resources
 
 
 
