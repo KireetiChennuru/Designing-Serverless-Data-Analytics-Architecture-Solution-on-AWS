@@ -9,7 +9,7 @@ This project is designed to provide real-time analytics for a restaurant's menu 
 
 ## Architecture Diagram
 
-![Architecture Diagram](./Cloud%20Architecture.jpeg)
+![Architecture Diagram]([./Cloud%20Architecture.jpeg](https://github.com/KireetiChennuru/Event-Driven-Serverless-Data-Analytics-Architecture/blob/main/Project_Files/Cloud%20Architecture.jpeg))
 
 
 ## Architecture Diagram Core Aspects:
