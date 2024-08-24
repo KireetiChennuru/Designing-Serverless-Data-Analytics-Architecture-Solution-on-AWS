@@ -126,3 +126,8 @@ For more details on the services and concepts covered in this project, please re
 - [Amazon API Gateway Documentation](https://aws.amazon.com/api-gateway/)
 - [Amazon Athena Documentation](https://aws.amazon.com/athena/)
 - [Amazon QuickSight Documentation](https://aws.amazon/quicksight/)
+
+
+## Author
+
+- Kireeti Chennuru | www.linkedin.com/in/kireeti-chennuru
