@@ -35,8 +35,7 @@ This project is designed to provide real-time analytics for a restaurant's menu 
   - [Learn more about AWS Lambda](https://aws.amazon.com/lambda/)
 
 ### Create a Kinesis Data Firehose Delivery Stream:
-- Establish a delivery stream to ingest real-time streaming data and deliver it to the Amazon S3 bucket.
-- Created a Kinesis Data Firehose delivery stream to ingest streaming data and then pasted the ARN (Amazon Resource Names) of the delivery stream’s into the IAM role.
+- Created a Kinesis Data Firehose delivery stream to ingest streaming data and  deliver it to the Amazon S3 bucket. 
 - Amazon Kinesis is used to collect, process, and analyze real-time, streaming data so you can get timely insights and analyze the data and respond instantly as it arrives, Instead of waiting until the entire data is collected before the processing can begin.
   
   ![Kinesis Data Firehose Delivery Stream](https://github.com/KireetiChennuru/Event-Driven-Serverless-Data-Analytics-Architecture/blob/main/Project_Files/Creating%20a%20Kinesis%20Data%20Firehose%20delivery%20stream.jpg)
@@ -45,6 +44,8 @@ This project is designed to provide real-time analytics for a restaurant's menu 
 
 ### Create a REST API:
 - Utilize Amazon API Gateway to create a REST API for inserting data into the system.
+- - A REST API in API Gateway is a collection of resources and methods that are integrated with backend HTTP endpoints, Lambda functions, or other AWS service. It will act as an interface between two computer systems to exchange information securely over the internet.
+  - An API, or Application Programming Interface, is a set of rules and protocols that allows different software applications to communicate with each other.
   
   ![REST API](https://github.com/KireetiChennuru/Event-Driven-Serverless-Data-Analytics-Architecture/blob/main/Project_Files/Creating%20an%20API%20in%20API%20Gateway.jpg)
   ![Integration Successful](https://github.com/KireetiChennuru/Event-Driven-Serverless-Data-Analytics-Architecture/blob/main/Project_Files/Integration%20Request%20-%20Mapping%20Templates.jpg)
