@@ -22,7 +22,7 @@ This project is designed to provide real-time analytics for a restaurant's menu 
 ### Create IAM Policies and Roles:
 - Follow best practices for working securely in the AWS Cloud by defining appropriate IAM policies and roles.
 - ![Create IAM Policies and Roles](https://github.com/KireetiChennuru/Event-Driven-Serverless-Data-Analytics-Architecture/blob/main/Project_Files/Creating%20custom%20IAM%20policies.jpg)
-  - [View IAM Policies on AWS](https://aws.amazon.com/iam/)
+  - [View AWS Identity and Access Management on AWS](https://aws.amazon.com/iam/)
 
 - ![IAM Roles](./IAM%20Roles.jpg)
   - [View IAM Roles on AWS](https://aws.amazon.com/iam/)
