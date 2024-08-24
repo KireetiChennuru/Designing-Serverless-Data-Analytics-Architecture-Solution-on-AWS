@@ -36,6 +36,8 @@ This project is designed to provide real-time analytics for a restaurant's menu 
 
 ### Create a Kinesis Data Firehose Delivery Stream:
 - Establish a delivery stream to ingest real-time streaming data and deliver it to the Amazon S3 bucket.
+- Created a Kinesis Data Firehose delivery stream to ingest streaming data and then pasted the ARN (Amazon Resource Names) of the delivery stream’s into the IAM role.
+- Amazon Kinesis is used to collect, process, and analyze real-time, streaming data so you can get timely insights and react quickly to new information. We can Ingest real-time data such as video, audio, website clickstreams etc, and analyze data as it arrives and respond instantly instead of having to wait until all your data is collected before the processing can begin. 
   
   ![Kinesis Data Firehose Delivery Stream](https://github.com/KireetiChennuru/Event-Driven-Serverless-Data-Analytics-Architecture/blob/main/Project_Files/Creating%20a%20Kinesis%20Data%20Firehose%20delivery%20stream.jpg)
   ![Adding the Firehose delivery stream ARN to the S3 bucket](https://github.com/KireetiChennuru/Event-Driven-Serverless-Data-Analytics-Architecture/blob/main/Project_Files/Adding%20the%20Firehose%20delivery%20stream%20ARN%20to%20the%20S3%20bucket.jpg)
