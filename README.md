@@ -43,7 +43,7 @@ This project is designed to provide real-time analytics for a restaurant's menu 
   - [Learn more about Amazon Kinesis Data Firehose](https://aws.amazon.com/kinesis/data-firehose/)
 
 ### Create a REST API:
-- Utilize Amazon API Gateway to create a REST API for inserting data into the system.
+- Created a REST API in API Gateway. This API serves as a communication gateway between our application and AWS services.
 - A REST API in API Gateway is a collection of resources and methods that are integrated with backend HTTP endpoints, Lambda functions, or other AWS service. It will act as an interface between two computer systems to exchange information securely over the internet.
 - An API, or Application Programming Interface, is a set of rules and protocols that allows different software applications to communicate with each other.
   
