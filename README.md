@@ -22,19 +22,16 @@ This project is designed to provide real-time analytics for a restaurant's menu 
 ### Create IAM Policies and Roles:
 - Follow best practices for working securely in the AWS Cloud by defining appropriate IAM policies and roles.
 - ![Create IAM Policies and Roles](https://github.com/KireetiChennuru/Event-Driven-Serverless-Data-Analytics-Architecture/blob/main/Project_Files/Creating%20custom%20IAM%20policies.jpg)
-<br>
   - [View AWS Identity and Access Management on AWS](https://aws.amazon.com/iam/)
 
 ### Create an S3 Bucket:
 - Set up an Amazon S3 bucket to store incoming clickstream data.
 - ![Create IAM Policies and Roles](https://github.com/KireetiChennuru/Event-Driven-Serverless-Data-Analytics-Architecture/blob/main/Project_Files/Creating%20an%20S3%20bucket.jpg)
-<br>
   - [Learn more about Amazon S3](https://aws.amazon.com/s3/)
 
 ### Create a Lambda Function:
 - Develop a Lambda function that transforms incoming data for Amazon Kinesis Data Firehose.
 - ![AWS Lambda](./Lambda%20Test%20Event%20Successful.jpg)
-<br>
   - [Learn more about AWS Lambda](https://aws.amazon.com/lambda/)
 
 ### Create a Kinesis Data Firehose Delivery Stream:
