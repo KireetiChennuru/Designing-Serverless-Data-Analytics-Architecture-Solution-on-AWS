@@ -7,7 +7,18 @@
 
 This project is designed to provide real-time analytics for a restaurant's menu items based on clickstream data. The goal is to derive actionable insights for a restaurant owner by architecting a data analytics solution using managed services on AWS. The architecture leverages serverless and event-driven components, ensuring scalability, cost efficiency, and real-time processing of data.
 
-## Concepts Covered
+## Architecture Diagram
+
+![Architecture Diagram](./Cloud%20Architecture.jpeg)
+
+
+## Architecture Diagram Core Aspects:
+
+
+
+
+
+## Project Structure:
 
 ### Create IAM Policies and Roles:
 - Follow best practices for working securely in the AWS Cloud by defining appropriate IAM policies and roles.
@@ -103,9 +114,7 @@ The primary goal of this project is to design an architecture that ingests, stor
 ### Task 9: Deleting All Resources
 - Clean up by removing all AWS resources created during the project to avoid unnecessary charges.
 
-## Architecture Diagram
 
-![Architecture Diagram](./Cloud%20Architecture.jpeg)
 
 ## Additional Information
 
