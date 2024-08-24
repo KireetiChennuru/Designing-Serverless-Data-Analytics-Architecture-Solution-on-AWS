@@ -101,6 +101,7 @@ The primary goal of this project is to design an architecture that ingests, stor
 
 #### Task 9: Deleting All Resources
 
+<br>
 
 
 ## Author
