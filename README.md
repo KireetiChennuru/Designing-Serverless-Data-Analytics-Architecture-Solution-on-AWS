@@ -13,12 +13,6 @@ This project is designed to provide real-time analytics for a restaurant's menu 
 
 ## Architecture Diagram Core Aspects:
 
-
-
-
-
-## Step by Step Procedure:
-
 ### Create IAM Policies and Roles:
 - Created an IAM role that enables API Gateway to send streaming data to Amazon Kinesis Data Firehose and added the API-Firehose policy to the role. IAM roles are used to delegate access to users, applications, or services that don't normally have access to the AWS resources.
   
@@ -32,7 +26,7 @@ This project is designed to provide real-time analytics for a restaurant's menu 
   - [Learn more about Amazon S3](https://aws.amazon.com/s3/)
 
 ### Create a Lambda Function:
-- Develop a Lambda function that transforms incoming data for Amazon Kinesis Data Firehose.
+- Created a Lambda function that transforms incoming data before Amazon Kinesis Data Firehose and ingests it into the object storage bucket. With serverless architecture in AWS Lambda, there is no need to provision or maintain servers, handle OS updates, or manage scaling manually. You can organize your code into Lambda functions and it runs your function only when needed and scales automatically. You only pay for the compute time that you consume.
   
   ![Lambda Function](https://github.com/KireetiChennuru/Event-Driven-Serverless-Data-Analytics-Architecture/blob/main/Project_Files/Creating%20a%20Lambda%20function.jpg)
   - [Learn more about AWS Lambda](https://aws.amazon.com/lambda/)
