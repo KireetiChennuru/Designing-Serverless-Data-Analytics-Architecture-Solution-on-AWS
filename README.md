@@ -13,13 +13,13 @@ This project is designed to provide real-time analytics for a restaurant's menu 
 
 ## Services Used
 
-1. **AWS Identity and Access Management (IAM):**
-2. **Amazon Simple Storage Service (Amazon S3):**
-3. **AWS Lambda:**  
-4. **Amazon Kinesis Data Firehose:**  
-5. **Amazon API Gateway:**  
-6. **Amazon Athena:**  
-7. **Amazon QuickSight:**    
+- **AWS Identity and Access Management (IAM):**
+- **Amazon Simple Storage Service (Amazon S3):**
+- **AWS Lambda:**  
+- **Amazon Kinesis Data Firehose:**  
+- **Amazon API Gateway:**  
+- **Amazon Athena:**  
+- **Amazon QuickSight:**    
 
 ## Architecture Diagram Core Aspects:
 
