@@ -83,33 +83,23 @@ The primary goal of this project is to design an architecture that ingests, stor
 
 ## Project Structure
 
-### Task 1: Setup
-- Create IAM policies and roles to ensure secure and best-practice configurations.
+### Task 1: Create IAM policies and roles to follow the best practices of working in the AWS Cloud.
 
-### Task 2: Creating an S3 Bucket
-- Set up an S3 bucket to store incoming clickstream data.
+### Task 2: Creating an object storage S3 bucket to store clickstream data.
 
-### Task 3: Creating a Lambda Function
-- Develop a Lambda function to transform incoming data from the Kinesis Data Firehose delivery stream.
+### Task 3: Create the Lambda function for Amazon Kinesis Data Firehose to transform data.
 
-### Task 4: Creating a Kinesis Data Firehose Delivery Stream
-- Establish a Firehose delivery stream to handle the real-time ingestion and delivery of data to S3.
+### Task 4: Create a Kinesis Data Firehose delivery stream to deliver real-time streaming data to Amazon S3.
 
 ### Task 5: Adding the Firehose Delivery Stream ARN to the S3 Bucket
-- Update S3 bucket permissions to accept data from the Firehose delivery stream.
 
-### Task 6: Creating an API in API Gateway
-- Design and deploy a REST API for data insertion.
+### Task 6: Create a REST API to insert data.
 
-### Task 7: Creating an Athena Table
-- Set up an Athena table to query the data stored in S3.
+### Task 7: Create an Amazon Athena table to view the obtained data.
 
-### Task 8: Visualizing Data with QuickSight
-- Create QuickSight dashboards to provide visual insights into the restaurant's menu item performance.
+### Task 8: Create Amazon QuickSight dashboards to visualize data.
 
 ### Task 9: Deleting All Resources
-- Clean up by removing all AWS resources created during the project to avoid unnecessary charges.
-
 
 
 
