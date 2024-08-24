@@ -44,8 +44,8 @@ This project is designed to provide real-time analytics for a restaurant's menu 
 
 ### Create a REST API:
 - Utilize Amazon API Gateway to create a REST API for inserting data into the system.
-- - A REST API in API Gateway is a collection of resources and methods that are integrated with backend HTTP endpoints, Lambda functions, or other AWS service. It will act as an interface between two computer systems to exchange information securely over the internet.
-  - An API, or Application Programming Interface, is a set of rules and protocols that allows different software applications to communicate with each other.
+- A REST API in API Gateway is a collection of resources and methods that are integrated with backend HTTP endpoints, Lambda functions, or other AWS service. It will act as an interface between two computer systems to exchange information securely over the internet.
+- An API, or Application Programming Interface, is a set of rules and protocols that allows different software applications to communicate with each other.
   
   ![REST API](https://github.com/KireetiChennuru/Event-Driven-Serverless-Data-Analytics-Architecture/blob/main/Project_Files/Creating%20an%20API%20in%20API%20Gateway.jpg)
   ![Integration Successful](https://github.com/KireetiChennuru/Event-Driven-Serverless-Data-Analytics-Architecture/blob/main/Project_Files/Integration%20Request%20-%20Mapping%20Templates.jpg)
