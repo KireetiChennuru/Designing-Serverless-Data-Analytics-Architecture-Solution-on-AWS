@@ -14,19 +14,22 @@ This project is designed to provide real-time analytics for a restaurant's menu 
 ## Architecture Diagram Core Aspects:
 
 ### Create IAM Policies and Roles:
-- Created an IAM role that enables API Gateway to send streaming data to Amazon Kinesis Data Firehose and added the API-Firehose policy to the role. IAM roles are used to delegate access to users, applications, or services that don't normally have access to the AWS resources.
+- Created an IAM role that enables API Gateway to send streaming data to Amazon Kinesis Data Firehose and added the API-Firehose policy to the role.
+- IAM roles are used to delegate access to users, applications, or services that don't normally have access to the AWS resources.
   
   ![IAM Policies and Roles](https://github.com/KireetiChennuru/Event-Driven-Serverless-Data-Analytics-Architecture/blob/main/Project_Files/Creating%20custom%20IAM%20policies.jpg)
   - [View AWS Identity and Access Management on AWS](https://aws.amazon.com/iam/)
 
 ### Create an S3 Bucket:
-- Created an object storage bucket in Amazon S3 to store incoming clickstream data. Amazon S3 offers industry-leading scalability, data availability, security, and performance. It is used to store and protect any amount of data for a range of use cases, such as data lakes, websites, mobile applications, backup and restore etc,
+- Created an object storage bucket in Amazon S3 to store incoming clickstream data.
+- Amazon S3 offers industry-leading scalability, data availability, security, and performance. It is used to store and protect any amount of data for a range of use cases, such as data lakes, websites, mobile applications, backup and restore etc,
   
   ![S3 Bucket](https://github.com/KireetiChennuru/Event-Driven-Serverless-Data-Analytics-Architecture/blob/main/Project_Files/Creating%20an%20S3%20bucket.jpg)
   - [Learn more about Amazon S3](https://aws.amazon.com/s3/)
 
 ### Create a Lambda Function:
-- Created a Lambda function that transforms incoming data before Amazon Kinesis Data Firehose and ingests it into the object storage bucket. With serverless architecture in AWS Lambda, there is no need to provision or maintain servers, handle OS updates, or manage scaling manually. You can organize your code into Lambda functions and it runs your function only when needed and scales automatically. You only pay for the compute time that you consume.
+- Created a Lambda function that transforms incoming data before Amazon Kinesis Data Firehose and ingests it into the object storage bucket.
+- With AWS Lambda serverless architecture, there is no need to provision or maintain servers, handle OS updates, or manage scaling manually. You can organize your code into Lambda functions and it runs your function only when needed and scales automatically. You only pay for the compute time that you consume.
   
   ![Lambda Function](https://github.com/KireetiChennuru/Event-Driven-Serverless-Data-Analytics-Architecture/blob/main/Project_Files/Creating%20a%20Lambda%20function.jpg)
   - [Learn more about AWS Lambda](https://aws.amazon.com/lambda/)
