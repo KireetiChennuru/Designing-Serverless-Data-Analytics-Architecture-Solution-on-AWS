@@ -1,7 +1,7 @@
-# **Real-Time Clickstream Data Analytics for Restaurant Insights**
+# **Event-Driven-Serverless-Data-Analytics-Architecture**
 
 
-## Hands-on Project - **Event-Driven-Serverless-Data-Analytics-Architecture**
+## Hands-on Project - **Real-Time Clickstream Data Analytics for Restaurant Insights**
 
 ## Project Synopsis:
 
