@@ -18,7 +18,7 @@ This project is designed to provide real-time analytics for a restaurant's menu 
 
 
 
-## Project Structure:
+## Step by Step Procedure:
 
 ### Create IAM Policies and Roles:
 - Follow best practices for working securely in the AWS Cloud by defining appropriate IAM policies and roles.
