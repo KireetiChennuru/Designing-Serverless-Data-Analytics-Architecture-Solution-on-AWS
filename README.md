@@ -11,40 +11,40 @@ This project is designed to provide real-time analytics for a restaurant's menu 
 
 ### Create IAM Policies and Roles:
 - Follow best practices for working securely in the AWS Cloud by defining appropriate IAM policies and roles.
-  ![IAM Policies](./IAM%20Policies.jpg)
+- ![IAM Policies](./IAM%20Policies.jpg)
   - [View IAM Policies on AWS](https://aws.amazon.com/iam/)
 
-  ![IAM Roles](./IAM%20Roles.jpg)
+- ![IAM Roles](./IAM%20Roles.jpg)
   - [View IAM Roles on AWS](https://aws.amazon.com/iam/)
 
 ### Create an S3 Bucket:
 - Set up an Amazon S3 bucket to store incoming clickstream data.
- ![Amazon S3 Bucket](./Dynamo%20DB%20table.jpg)
+- ![Amazon S3 Bucket](./Dynamo%20DB%20table.jpg)
   - [Learn more about Amazon S3](https://aws.amazon.com/s3/)
 
 ### Create a Lambda Function:
 - Develop a Lambda function that transforms incoming data for Amazon Kinesis Data Firehose.
-  ![AWS Lambda](./Lambda%20Test%20Event%20Successful.jpg)
+- ![AWS Lambda](./Lambda%20Test%20Event%20Successful.jpg)
   - [Learn more about AWS Lambda](https://aws.amazon.com/lambda/)
 
 ### Create a Kinesis Data Firehose Delivery Stream:
 - Establish a delivery stream to ingest real-time streaming data and deliver it to the Amazon S3 bucket.
-  ![Kinesis Data Firehose](./POC%20-%20Lambda%20-%201.jpg)
+- ![Kinesis Data Firehose](./POC%20-%20Lambda%20-%201.jpg)
   - [Learn more about Amazon Kinesis Data Firehose](https://aws.amazon.com/kinesis/data-firehose/)
 
 ### Create a REST API:
 - Utilize Amazon API Gateway to create a REST API for inserting data into the system.
-  ![API Gateway](./API%20Gateway.jpg)
+- ![API Gateway](./API%20Gateway.jpg)
   - [Learn more about Amazon API Gateway](https://aws.amazon.com/api-gateway/)
 
 ### Create an Amazon Athena Table:
 - Set up an Athena table to query and view the obtained data stored in S3.
- ![Amazon Athena](./POC%20-%20Lambda%20-%202.jpg)
+- ![Amazon Athena](./POC%20-%20Lambda%20-%202.jpg)
   - [Learn more about Amazon Athena](https://aws.amazon.com/athena/)
 
 ### Create Amazon QuickSight Dashboards:
 - Build dashboards in Amazon QuickSight to visualize the analyzed data.
-  ![Amazon QuickSight](./Configure%20Test%20Event.jpg)
+- ![Amazon QuickSight](./Configure%20Test%20Event.jpg)
   - [Learn more about Amazon QuickSight](https://aws.amazon.com/quicksight/)
 
 ## Services Used
