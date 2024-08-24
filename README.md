@@ -24,12 +24,9 @@ This project is designed to provide real-time analytics for a restaurant's menu 
 - ![Create IAM Policies and Roles](https://github.com/KireetiChennuru/Event-Driven-Serverless-Data-Analytics-Architecture/blob/main/Project_Files/Creating%20custom%20IAM%20policies.jpg)
   - [View AWS Identity and Access Management on AWS](https://aws.amazon.com/iam/)
 
-- ![IAM Roles](./IAM%20Roles.jpg)
-  - [View IAM Roles on AWS](https://aws.amazon.com/iam/)
-
 ### Create an S3 Bucket:
 - Set up an Amazon S3 bucket to store incoming clickstream data.
-- ![Amazon S3 Bucket](./Dynamo%20DB%20table.jpg)
+- ![Create IAM Policies and Roles](https://github.com/KireetiChennuru/Event-Driven-Serverless-Data-Analytics-Architecture/blob/main/Project_Files/Creating%20an%20S3%20bucket.jpg)
   - [Learn more about Amazon S3](https://aws.amazon.com/s3/)
 
 ### Create a Lambda Function:
