@@ -54,7 +54,7 @@ This project is designed to provide real-time analytics for a restaurant's menu 
 
 ### Create Amazon QuickSight Dashboards:
 - Build dashboards in Amazon QuickSight to visualize the analyzed data.
-- ![Amazon QuickSight](./Configure%20Test%20Event.jpg)
+- ![Amazon QuickSight](https://github.com/KireetiChennuru/Event-Driven-Serverless-Data-Analytics-Architecture/blob/main/Project_Files/Quicksight%20Dashboard.jpg)
   - [Learn more about Amazon QuickSight](https://aws.amazon.com/quicksight/)
 
 ## Services Used
