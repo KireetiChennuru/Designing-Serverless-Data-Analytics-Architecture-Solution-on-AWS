@@ -21,6 +21,7 @@ This project is designed to provide real-time analytics for a restaurant's menu 
 
 ### Create IAM Policies and Roles:
 - Created an IAM role that enables API Gateway to send streaming data to Amazon Kinesis Data Firehose and added the API-Firehose policy to the role. IAM roles are used to delegate access to users, applications, or services that don't normally have access to the AWS resources.
+  
   ![IAM Policies and Roles](https://github.com/KireetiChennuru/Event-Driven-Serverless-Data-Analytics-Architecture/blob/main/Project_Files/Creating%20custom%20IAM%20policies.jpg)
   - [View AWS Identity and Access Management on AWS](https://aws.amazon.com/iam/)
 
