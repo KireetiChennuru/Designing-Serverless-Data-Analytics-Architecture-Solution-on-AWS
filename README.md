@@ -11,6 +11,30 @@ This project is designed to provide real-time analytics for a restaurant's menu 
 
 ![Cloud Architecture](https://github.com/KireetiChennuru/Event-Driven-Serverless-Data-Analytics-Architecture/blob/main/Project_Files/Cloud%20Architecture.jpeg)
 
+## Services Used
+
+- **AWS Identity and Access Management (IAM):**
+  - Policies and roles for secure access control.
+  
+- **Amazon Simple Storage Service (Amazon S3):**
+  - Object storage to store the clickstream data.
+  
+- **AWS Lambda:**
+  - Serverless compute for data transformation.
+  
+- **Amazon Kinesis Data Firehose:**
+  - Real-time data streaming and delivery service.
+  
+- **Amazon API Gateway:**
+  - Managed service to create and manage REST APIs.
+  
+- **Amazon Athena:**
+  - Serverless query service to analyze data in S3.
+  
+- **Amazon QuickSight:**
+  - Business intelligence service to visualize data.
+    
+
 ## Architecture Diagram Core Aspects:
 
 ### Create IAM Policies and Roles:
@@ -66,28 +90,6 @@ This project is designed to provide real-time analytics for a restaurant's menu 
  ![Amazon QuickSight](https://github.com/KireetiChennuru/Event-Driven-Serverless-Data-Analytics-Architecture/blob/main/Project_Files/Quicksight%20Dashboard.jpg)
   - [Learn more about Amazon QuickSight](https://aws.amazon.com/quicksight/)
 
-## Services Used
-
-- **AWS Identity and Access Management (IAM):**
-  - Policies and roles for secure access control.
-  
-- **Amazon Simple Storage Service (Amazon S3):**
-  - Object storage to store the clickstream data.
-  
-- **AWS Lambda:**
-  - Serverless compute for data transformation.
-  
-- **Amazon Kinesis Data Firehose:**
-  - Real-time data streaming and delivery service.
-  
-- **Amazon API Gateway:**
-  - Managed service to create and manage REST APIs.
-  
-- **Amazon Athena:**
-  - Serverless query service to analyze data in S3.
-  
-- **Amazon QuickSight:**
-  - Business intelligence service to visualize data.
 
 ## Project Goals
 
