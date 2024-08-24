@@ -1,4 +1,4 @@
-# **Event-Driven-Serverless-Data-Analytics-Architecture**
+# **Event Driven Serverless Data-Analytics Architecture Project On AWS**
 
 
 ## Hands-on Project - **Real-Time Clickstream Data Analytics for Restaurant Insights**
