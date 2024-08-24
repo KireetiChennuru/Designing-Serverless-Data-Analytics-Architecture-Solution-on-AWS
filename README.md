@@ -52,14 +52,16 @@ This project is designed to provide real-time analytics for a restaurant's menu 
   - [Learn more about Amazon API Gateway](https://aws.amazon.com/api-gateway/)
 
 ### Create an Amazon Athena Table:
-- Set up an Athena table to query and view the obtained data stored in S3.
+- Created a table in Athena using AWS Management console and we can run a Structured Query Language (SQL) query to view the payloads which was ingested with the REST API.
+- Amazon Athena is an interactive query service that makes it easy to analyze data directly in Amazon S3 using standard SQL.Athena provides a simplified, flexible way to analyze petabytes of data where it lives or build applications from an Amazon S3 data lake or other cloud systems using SQL or Python.
   
   ![Amazon Athena](https://github.com/KireetiChennuru/Event-Driven-Serverless-Data-Analytics-Architecture/blob/main/Project_Files/Creating%20an%20Athena%20table.jpg)
   ![Athena Query Successful](https://github.com/KireetiChennuru/Event-Driven-Serverless-Data-Analytics-Architecture/blob/main/Project_Files/Athena%20Query%20Successful.jpg)
   - [Learn more about Amazon Athena](https://aws.amazon.com/athena/)
 
 ### Create Amazon QuickSight Dashboards:
-- Build dashboards in Amazon QuickSight to visualize the analyzed data.
+- Once the clickstream data is processed successfully, we can use QuickSight to build dashboards in Amazon QuickSight to visualize the analyzed data.
+- Amazon QuickSight is a cloud-scale business intelligence (BI) service that you can use to deliver easy-to-understand insights. It allows users to build visualizations, perform ad-hoc analysis, and get business insights from their data. QuickSight connects to data in the cloud and combines data from various sources.
   
  ![Amazon QuickSight](https://github.com/KireetiChennuru/Event-Driven-Serverless-Data-Analytics-Architecture/blob/main/Project_Files/Quicksight%20Dashboard.jpg)
   - [Learn more about Amazon QuickSight](https://aws.amazon.com/quicksight/)
