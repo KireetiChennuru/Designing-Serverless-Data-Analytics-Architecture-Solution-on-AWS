@@ -26,40 +26,34 @@ This project is designed to provide real-time analytics for a restaurant's menu 
 
 ### Create an S3 Bucket:
 - Set up an Amazon S3 bucket to store incoming clickstream data.
-  <br>
   ![S3 Bucket](https://github.com/KireetiChennuru/Event-Driven-Serverless-Data-Analytics-Architecture/blob/main/Project_Files/Creating%20an%20S3%20bucket.jpg)
   - [Learn more about Amazon S3](https://aws.amazon.com/s3/)
 
 ### Create a Lambda Function:
 - Develop a Lambda function that transforms incoming data for Amazon Kinesis Data Firehose.
- <br>
   ![Lambda Function](https://github.com/KireetiChennuru/Event-Driven-Serverless-Data-Analytics-Architecture/blob/main/Project_Files/Creating%20a%20Lambda%20function.jpg)
   - [Learn more about AWS Lambda](https://aws.amazon.com/lambda/)
 
 ### Create a Kinesis Data Firehose Delivery Stream:
 - Establish a delivery stream to ingest real-time streaming data and deliver it to the Amazon S3 bucket.
-  <br>
   ![Kinesis Data Firehose Delivery Stream](https://github.com/KireetiChennuru/Event-Driven-Serverless-Data-Analytics-Architecture/blob/main/Project_Files/Creating%20a%20Kinesis%20Data%20Firehose%20delivery%20stream.jpg)
   ![Adding the Firehose delivery stream ARN to the S3 bucket](https://github.com/KireetiChennuru/Event-Driven-Serverless-Data-Analytics-Architecture/blob/main/Project_Files/Adding%20the%20Firehose%20delivery%20stream%20ARN%20to%20the%20S3%20bucket.jpg)
   - [Learn more about Amazon Kinesis Data Firehose](https://aws.amazon.com/kinesis/data-firehose/)
 
 ### Create a REST API:
 - Utilize Amazon API Gateway to create a REST API for inserting data into the system.
-  <br>
   ![REST API](https://github.com/KireetiChennuru/Event-Driven-Serverless-Data-Analytics-Architecture/blob/main/Project_Files/Creating%20an%20API%20in%20API%20Gateway.jpg)
   ![Integration Successful](https://github.com/KireetiChennuru/Event-Driven-Serverless-Data-Analytics-Architecture/blob/main/Project_Files/Integration%20Request%20-%20Mapping%20Templates.jpg)
   - [Learn more about Amazon API Gateway](https://aws.amazon.com/api-gateway/)
 
 ### Create an Amazon Athena Table:
 - Set up an Athena table to query and view the obtained data stored in S3.
-  <br>
   ![Amazon Athena](https://github.com/KireetiChennuru/Event-Driven-Serverless-Data-Analytics-Architecture/blob/main/Project_Files/Creating%20an%20Athena%20table.jpg)
   ![Athena Query Successful](https://github.com/KireetiChennuru/Event-Driven-Serverless-Data-Analytics-Architecture/blob/main/Project_Files/Athena%20Query%20Successful.jpg)
   - [Learn more about Amazon Athena](https://aws.amazon.com/athena/)
 
 ### Create Amazon QuickSight Dashboards:
 - Build dashboards in Amazon QuickSight to visualize the analyzed data.
-  <br>
  ![Amazon QuickSight](https://github.com/KireetiChennuru/Event-Driven-Serverless-Data-Analytics-Architecture/blob/main/Project_Files/Quicksight%20Dashboard.jpg)
   - [Learn more about Amazon QuickSight](https://aws.amazon.com/quicksight/)
 
