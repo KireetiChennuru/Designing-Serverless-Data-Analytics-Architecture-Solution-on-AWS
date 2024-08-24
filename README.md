@@ -3,7 +3,7 @@
 
 ## **Real-Time Clickstream Analytics for Restaurant Insights**
 
-### Project Synopsis:
+## Project Synopsis:
 
 This project is designed to provide real-time analytics for a restaurant's menu items based on clickstream data. The goal is to derive actionable insights for a restaurant owner by architecting a data analytics solution using managed services on AWS. The architecture leverages serverless and event-driven components, ensuring scalability, cost efficiency, and real-time processing of data.
 
