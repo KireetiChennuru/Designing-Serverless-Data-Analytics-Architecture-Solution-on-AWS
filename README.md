@@ -115,18 +115,6 @@ The primary goal of this project is to design an architecture that ingests, stor
 
 
 
-## Additional Information
-
-For more details on the services and concepts covered in this project, please refer to the following AWS documentation:
-
-- [AWS Identity and Access Management (IAM)](https://aws.amazon.com/iam/)
-- [Amazon S3 Documentation](https://aws.amazon.com/s3/)
-- [AWS Lambda Documentation](https://aws.amazon.com/lambda/)
-- [Amazon Kinesis Data Firehose Documentation](https://aws.amazon.com/kinesis/data-firehose/)
-- [Amazon API Gateway Documentation](https://aws.amazon.com/api-gateway/)
-- [Amazon Athena Documentation](https://aws.amazon.com/athena/)
-- [Amazon QuickSight Documentation](https://aws.amazon/quicksight/)
-
 
 ## Author
 
